@@ -2,7 +2,7 @@ import axios from 'axios'
 import type { AxiosInstance } from 'axios'
 import type { MYRequestInterceptors, MYRequestConfig } from './type'
 
-import { configProviderContextKey, ElLoading } from 'element-plus'
+import { ElLoading } from 'element-plus'
 import { LoadingInstance } from 'element-plus/lib/components/loading/src/loading'
 import 'element-plus/theme-chalk/el-loading.css'
 
